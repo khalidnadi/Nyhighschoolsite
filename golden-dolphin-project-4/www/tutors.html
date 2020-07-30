@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" class = "Page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutors</title>
+  <link href="styles/all.css" media="all" rel="stylesheet" type="text/css">
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript">
+  </script>
+  <script src="scripts/validation.js" type="text/javascript">
+  </script>
+  <script src="scripts/translation.js" type="text/javascript">
+  </script>
+  <script src="scripts/search.js" type="text/javascript">
+  </script>
+</head>
+<body>
+
+  <nav class = "english">
+
+    <ul>
+      <li class = "logo_img">
+        <!--Image Name: specialx.png
+        Image Source: tailorbrands.com/logo-maker
+        Elaine Sagalchik used this website to generate this image
+      -->
+        <img src = "images/specialx.png" alt = "logo-nav">
+      </li>
+      <li >
+        <a class = "navlines" href="index.html">Home</a>
+      </li>
+      <li>
+        <a class = "navlines" href="test.html">The Test</a>
+      </li>
+      <li>
+        <a class = "navlines" href="offerings.html">Offerings</a>
+      </li>
+      <li>
+        <a class = "navlines" href="tutors.html">Tutors</a>
+      </li>
+      <li>
+        <a class = "navlines" href="contact.html">Contact</a>
+      </li>
+
+      <li>
+        <div id="toChineseButton" class="langbutton english">
+          <button type="button">对中国人</button>
+        </div>
+        <div id="toEnglishButton" class="langbutton hidden chinese">
+          <button type="button">To English</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+
+
+
+
+  <nav class="hidden chinese">
+    <ul>
+      <li class = "logo_img">
+        <img src = "images/specialx.png" alt = "logo-nav">
+      </li>
+      <li>
+        <a class = "navlines" href="index.html">主页</a>
+      </li>
+      <li>
+        <a class = "navlines" href="test.html">考试</a>
+      </li>
+      <li>
+        <a class = "navlines" href="offerings.html">课程</a>
+      </li>
+      <li>
+        <a class = "navlines" href="tutors.html">导师</a>
+      </li>
+      <li>
+        <a class = "navlines" href="contact.html">联系</a>
+      </li>
+      <li>
+        <div id="toChineseButton2" class="langbutton english">
+          <button type="button">对中国人</button>
+        </div>
+        <div id="toEnglishButton2" class="langbutton hidden chinese">
+          <button type="button">To English</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+<div class="english center">
+  <h2>Our Tutors</h2>
+  <p>SpecialX is dedicated to providing students with the skills necessary to pass the test. To do this, all of our tutors are high school students themselves who passed the test with flying colors. This means they know the skills tips and tricks necessary to help your child succeed. Here are all the tutors:</p>
+</div>
+<div class="chinese hidden center">
+  <h2>我们的导师</h2>
+  <p>SpecialX致力于为学生提供通过考试所需的技能。要做到这一点，我们所有的导师都是高中生，他们以优异的成绩通过考试。这意味着他们知道帮助您的孩子取得成功所需的技能提示和技巧。以下是所有导师：</p>
+</div>
+  <ul class="tutor-toolbar">
+    <li>
+      <input id="searchbar" type="text" placeholder="Search by name, school">
+    </li>
+  </ul>
+  <div class="tutor-display">
+    <div class="tutor-card">
+      <!-- placeholder img from https://pixabay.com/en/business-woman-business-man-business-2071342/-->
+      <img src="images/tutor.jpg" alt = "tutor">
+      <ul>
+        <li><span class="card-label">Name:</span> Mary Worchester</li>
+        <li><span class="card-label">School:</span> Stuyvesant</li>
+        <li><span class="card-label">About:</span> Mary is an A+ student and loves fine cheeses.</li>
+      </ul>
+    </div>
+    <div class="tutor-card">
+      <!-- placeholder img from https://pixabay.com/en/business-woman-business-man-business-2071342/-->
+      <img src="images/tutor.jpg" alt = "tutor">
+      <ul>
+        <li><span class="card-label">Name:</span> Lauren Dufrain</li>
+        <li><span class="card-label">School:</span>Bronx Science</li>
+        <li><span class="card-label">About:</span> Lauren reads only Foucault and listens to only alt-j.</li>
+      </ul>
+    </div>
+    <div class="tutor-card">
+      <!-- placeholder img from https://pixabay.com/en/business-woman-business-man-business-2071342/-->
+      <img src="images/tutor.jpg" alt = "tutor">
+      <ul>
+        <li><span class="card-label">Name:</span> Gennifer Gastly</li>
+        <li><span class="card-label">School:</span> Brooklyn Technical High School</li>
+        <li><span class="card-label">About:</span> Gennifer is pronounced with a hard 'G'. Loves corgis.</li>
+      </ul>
+    </div>
+    <div class="tutor-card">
+      <!-- placeholder img from https://pixabay.com/en/business-woman-business-man-business-2071342/-->
+      <img src="images/tutor.jpg" alt = "tutor">
+      <ul>
+        <li><span class="card-label">Name:</span> Marty Margins</li>
+        <li><span class="card-label">School:</span> City College</li>
+        <li><span class="card-label">About:</span> Marty plays seventeen instruments and has never felttrue love.</li>
+      </ul>
+    </div>
+    <div class="tutor-card">
+      <!-- placeholder img from https://pixabay.com/en/business-woman-business-man-business-2071342/-->
+      <img src="images/tutor.jpg" alt = "tutor">
+      <ul>
+        <li><span class="card-label">Name:</span> Tawny Buck</li>
+        <li><span class="card-label">School:</span> Lehman College</li>
+        <li><span class="card-label">About:</span> Tawny Buck likes long walks in the forest, and running from bright lights.</li>
+      </ul>
+    </div>
+    <div class="tutor-card">
+      <!-- placeholder img from https://pixabay.com/en/business-woman-business-man-business-2071342/-->
+      <img src="images/tutor.jpg" alt = "tutor">
+      <ul>
+        <li><span class="card-label">Name:</span> Sylvester Stalone</li>
+        <li><span class="card-label">School:</span> Stuyvesant</li>
+        <li><span class="card-label">About:</span> Creed is actually really good apparently.</li>
+      </ul>
+    </div>
+    <div class="tutor-card">
+      <!-- placeholder img from https://pixabay.com/en/business-woman-business-man-business-2071342/-->
+      <img src="images/tutor.jpg" alt = "tutor">
+      <ul>
+        <li><span class="card-label">Name:</span> Emma Sinclair</li>
+        <li><span class="card-label">School:</span> Brooklyn Technical High School</li>
+        <li><span class="card-label">About:</span> Emma Sinclair fends off the coming of the dark, sword in hand.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div>
+    <a class = "citation" href="https://www.pexels.com/photo/blue-sky-blur-clear-sky-color-281260/">Background Image Source</a>
+</div>
+
+</body>
+</html>

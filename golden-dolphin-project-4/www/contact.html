@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class = "Page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link href="styles/all.css" media="all" rel="stylesheet" type="text/css">
+  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript">
+  </script>
+  <script src="scripts/validation.js" type="text/javascript">
+  </script>
+  <script src="scripts/translation.js" type="text/javascript">
+  </script>
+</head>
+<body>
+
+  <nav class = "english">
+
+    <ul>
+      <li class = "logo_img">
+        <!--Image Name: specialx.png
+        Image Source: tailorbrands.com/logo-maker
+        Elaine Sagalchik used this website to generate this image
+      -->
+        <img src = "images/specialx.png" alt = "logo-nav">
+      </li>
+      <li>
+        <a class = "navlines" href="index.html">Home</a>
+      </li>
+      <li>
+        <a class = "navlines" href="test.html">The Test</a>
+      </li>
+      <li>
+        <a class = "navlines" href="offerings.html">Offerings</a>
+      </li>
+      <li>
+        <a class = "navlines" href="tutors.html">Tutors</a>
+      </li>
+      <li>
+        <a class = "navlines" href="contact.html">Contact</a>
+      </li>
+
+      <li>
+        <div id="toChineseButton" class="langbutton english">
+          <button type="button">对中国人</button>
+        </div>
+        <div id="toEnglishButton" class="langbutton hidden chinese">
+          <button type="button">To English</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+
+
+
+
+  <nav class="hidden chinese">
+    <ul>
+      <li class = "logo_img">
+        <img src = "images/specialx.png" alt = "logo-nav">
+      </li>
+      <li>
+        <a class = "navlines" href="index.html">主页</a>
+      </li>
+      <li>
+        <a class = "navlines" href="test.html">考试</a>
+      </li>
+      <li>
+        <a class = "navlines" href="offerings.html">课程</a>
+      </li>
+      <li>
+        <a class = "navlines" href="tutors.html">导师</a>
+      </li>
+      <li>
+        <a class = "navlines" href="contact.html">联系</a>
+      </li>
+      <li>
+        <div id="toChineseButton2" class="langbutton english">
+          <button type="button">对中国人</button>
+        </div>
+        <div id="toEnglishButton2" class="langbutton hidden chinese">
+          <button type="button">To English</button>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <div id = "contactform">
+  <h2 class = "center english">Contact Us</h2>
+  <h2 class = "center chinese">联系我们</h2>
+
+  <section class="english form-con">
+        <p class = "center"> Contact us to start learning with SpecialX today!</p>
+    <form method = "post" action="formSubmitted.html" id="contactForm" name="contactForm" novalidate>
+
+<!--
+      IMPORTANT NOTE: This form is set up to email the results to Elaine Sagalchik's email at ers256@cornell.edu but it only does so if this website is launched through Heroku first. Otherwise, the gmail that sends the form responses receives security emails. PLEASE launch this from Heroku to test functionality!!
+-->
+
+
+      <div>
+        <label for="userName">Name:* </label>
+        <input id="userName" name="userName" placeholder="First and Last Name" required/>
+        <br>
+        <p class="nameError hidden" id = "nameError"> Please provide a valid unique name.</p>
+      </div>
+
+      <div>
+          <label for="userEmail">Email*:</label> <input id="userEmail" name="userEmail" placeholder="Your Email" required="" type="email">
+          <p class="emailError hidden"> Please provide a valid email in the form: example@example.___.</p>
+      </div>
+
+      <div>
+        <label for="gradeSelect">What grade are you in? </label>
+        <select id="gradeSelect" name="gradeSelect">
+          <option value="under7"> Below 7th Grade </option>
+          <option value="7"> 7th Grade </option>
+          <option value="8"> 8th Grade</option>
+          <option value="9"> 9th Grade</option>
+        </select>
+      </div>
+
+
+      <div>
+        <label for="courseSelect">What Course are you Interested In? </label>
+        <select id="courseSelect" name="courseSelect">
+          <option value="Math"> The Math Course</option>
+          <option value="Grammar"> The Grammar Course</option>
+          <option value="Logic"> The Logic Course</option>
+          <option value="CT"> The Cr. Thinking Course</option>
+          <option value="Complete"> The Complete Course</option>
+          <option value="Complete"> More than one course</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="priceSelect">What is your Ideal Price Range? </label>
+        <select id="priceSelect" name="priceSelect">
+          <option value="under200"> Below $200</option>
+          <option value="under300"> Below $300</option>
+          <option value="under400"> Below $400</option>
+          <option value="under500"> Below $500</option>
+        </select>
+      </div>
+
+      <div>
+
+        <label for ="writtenMessage">Message:*</label>
+        <p class="writtenmessageError hidden"> Your form cannot be empty. Please share your thoughts.</p>
+        <p class = "feedback"><textarea id="writtenMessage" name="writtenmessage" required></textarea>
+        </p>
+
+        <button type="submit" class="submit">SUBMIT</button>
+
+        <div class="clearFix"></div>
+
+      </div>
+
+    </form>
+
+  </section>
+
+  <section class="chinese hidden form-con">
+        <p class = "center"> 联系我们，立即开始学习SpecialX！</p>
+    <form action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" id="contactFormChinese" method="post" name="contactFormChinese" novalidate>
+
+      <div>
+        <label for="userNameC">姓名*: </label>
+        <input id="userNameC" name="userNameC" placeholder="名字和姓氏" required/>
+        <br>
+        <p class="nameError hidden" id = "nameErrorC"> 请提供有效的唯一名称。</p>
+      </div>
+
+      <div>
+          <label for="userEmailC">电子邮件:*</label> <input id="userEmailC" name="userEmailC" placeholder="你的邮件" required="" type="email">
+          <p class="emailError hidden"> 请提供以下格式的有效电子邮件：example@example.___。</p>
+      </div>
+
+      <div>
+        <label for="gradeSelectC">您在哪个年级？ </label>
+        <select id="gradeSelectC" name="gradeSelectC">
+          <option value="under7"> 7年级以下 </option>
+          <option value="7"> 7年级</option>
+          <option value="8"> 8年级</option>
+          <option value="9"> 9年级</option>
+        </select>
+      </div>
+
+
+      <div>
+        <label for="courseSelectC">你对什么课程感兴趣？ </label>
+        <select id="courseSelectC" name="courseSelectC">
+          <option value="Math"> 数学课程</option>
+          <option value="Grammar"> 语法课程</option>
+          <option value="Logic"> 逻辑课程</option>
+          <option value="CT"> 批判性思维课程</option>
+          <option value="Complete"> 完整课程</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="priceSelectC">您理想的价格范围是多少？ </label>
+        <select id="priceSelectC" name="priceSelectC">
+          <option value="under200"> 200美元</option>
+          <option value="under300"> 以下300美元</option>
+          <option value="under400"> 以下400美元</option>
+          <option value="under500"> 美元以下500以下</option>
+        </select>
+      </div>
+
+      <div>
+
+        <label for ="writtenMessageC">消息*</label>
+        <p class="writtenmessageError hidden"> 请分享您的想法。</p>
+        <p class = "feedback"><textarea id="writtenMessageC" name="writtenmessageC" required></textarea>
+        </p>
+
+        <button type="submit" class="submit">提交</button>
+
+        <div class="clearFix"></div>
+
+      </div>
+
+    </form>
+
+  </section>
+
+  <div>
+    <a class = "citation" href="https://www.pexels.com/photo/blue-sky-blur-clear-sky-color-281260/">Background Image Source</a>
+</div>
+</div>
+
+</body>
+</html>

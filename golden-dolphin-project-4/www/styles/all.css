@@ -1,0 +1,604 @@
+/* background image source: (Original Work) Francesco Ungaro
+   URL: https://www.pexels.com/photo/blue-sky-blur-clear-sky-color-281260/
+*/
+.Page{
+  background: url(../images/background.jpg);
+  background-size: cover;
+}
+
+header {
+	background-color: white;
+	justify-content: center;
+	border-color: #57A2DB;
+	border: double;
+	border-width: 6px;
+}
+
+/*HEADERS*/
+h1 {
+	color: #57A2DB;
+	font-weight: bold;
+  text-align: center;
+}
+h2 {
+	color: #57A2DB;
+	padding-top: 30px;
+}
+
+/*NAV BAR */
+nav{
+  text-align: center;
+  margin-right: 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.chinese nav{
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+
+}
+
+nav ul{
+  background: #57A2DB;
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+
+}
+
+nav li{
+  background: #57A2DB;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+nav img {
+    height: 60px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 0px;
+    line-height: 40px;
+    margin-top: -18px;
+    text-align: left;
+}
+
+.logo_img {
+	display: inline-block;
+	float: left;
+	background-color: transparent;
+}
+
+
+.navlines {
+  transition: 0.3s ease;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  padding: 12px;
+	margin-top: 0;
+  margin-right: 0;
+
+}
+
+.navlines:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0;
+}
+
+/*BUTTON*/
+.langbutton {
+	text-align: right;
+	justify-content: right;
+}
+
+button {
+	border: none;
+	background-color: #57A2DB;
+	border-radius: 2px;
+	color: white;
+  border-color: white;
+  border-style: solid;
+	font-size: 14pt;
+}
+
+/*BASICS*/
+img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: auto;
+	overflow: hidden;
+	border: 2px solid black;
+}
+p {
+	color: #6f6f6f;
+	font-weight: normal;
+	line-height: 30px;
+	font-family: Comic Sans, Verdana, sans-serif;
+	margin-bottom: 30px;
+}
+
+p#about1{
+	margin-top: 0;
+	line-height: 40px;
+}
+p#about2{
+	line-height: 40px;
+}
+
+.citations{
+	font-size: 8px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+p em {
+	font-weight: bold;
+}
+
+/*Lists */
+
+li q {
+	font-weight: normal;
+	font-style: italic;
+}
+li em {
+	font-weight: bold;
+}
+li {
+	color: #6f6f6f;
+	font-family: verdana, sans-serif;
+}
+.lists {
+	list-style-type: none;
+	font-size: 18px;
+}
+
+.clists {
+	list-style-type: none;
+	font-size: 18px;
+}
+
+.index_buttons{
+	margin-bottom: 10px;
+}
+
+.cindex_buttons{
+	margin-bottom: 10px;
+  margin-right: 50px;
+}
+
+.button_text{
+	text-decoration: none;
+	background-color: #289090;
+  color: white;
+	padding: 10px;
+  margin-bottom: 10px;
+}
+
+#completeCourse{
+	text-align: left;
+	margin-left: 220px;
+	line-height: 25px;
+}
+
+#complete_c3{
+	text-align: left;
+	margin-left: 320px;
+	line-height: 25px;
+}
+
+/*a Tags */
+.citation{
+	background-color: #489ac8;
+	font-size: 10px;
+	color: white;
+	padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+
+/*div tags */
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 90%;
+}
+
+div#tutor-card {
+	justify-content: center;
+	text-align: center;
+	width: auto;
+
+}
+
+.about_index {
+	margin: 20px;
+	padding: 20px;
+	line-height: 40px;
+	color: #000000;
+	font-weight: 500;
+	text-align: center;
+	font-size: 20px;
+	width: auto;
+}
+
+.center2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 55%;
+}
+
+/*Form */
+
+#contactForm div {
+	padding: 10px;
+}
+
+#contactFormChinese div {
+	padding: 10px;
+}
+
+#formbox {
+  text-align: left;
+}
+
+.clearFix {
+	clear: both;
+}
+
+textarea {
+	display: inline-block;
+	height: 200px;
+	width: 100%;
+	justify-content: center;
+}
+
+#contactForm div {
+	margin: 10px 0;
+	margin-right: auto;
+	text-align: center;
+}
+
+#contactFormChinese div {
+	margin: 10px 0;
+	margin-right: auto;
+	text-align: center;
+}
+
+.form-con{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.review {
+	width: 550px;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.main-body {
+	margin-left: 0px !important;
+}
+
+.writtenmessegeError {
+	font-size: 12px !important;
+}
+
+/* TUTORS SECTION */
+.tutor-toolbar {
+	background-color: #8cd0ed;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 3px dotted gray;
+}
+.tutor-toolbar li {
+	display: inline;
+	margin: 5px 3px 5px 3px;
+}
+.tutor-display {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: center;
+
+}
+.tutor-display img {
+	height: 150px;
+	width: 150px;
+}
+.tutor-display ul {
+	display: inline-block;
+}
+.tutor-card {
+	border: 1px solid;
+	box-shadow: 3px 3px gray;
+	margin: 10px 10px 10px 10px;
+	width: 300px;
+}
+.card-line {
+	display: block;
+}
+.nameError {
+	color: red;
+    font-weight: bold;
+    font-size: 13px;
+}
+.emailError {
+	color: red;
+    font-weight: bold;
+    font-size: 13px;
+}
+.writtenmessageError {
+	color: red;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.slideshowButtonHolder {
+  text-align: center;
+  justify-content: center;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Next & previous buttons from W3schools.com*/
+.slideshowNextButton {
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #489ac8;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-user-select: none;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideshowNextButton:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* FORM */
+#ticketForm {
+  display: flex;
+  flex-direction: column;
+}
+
+/*spacing */
+#ticketForm div {
+  margin-bottom: 10px;
+}
+
+/* align labels*/
+#ticketForm label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+#ticketForm input {
+  padding: 1px;
+  border: 1px gray solid;
+  width: 146px; /* 1 px of padding, 1px of border on each side, 150px total */
+}
+
+#ticketForm select {
+  width: 150px;
+}
+
+#ticketForm button.submit {
+  margin-top: 15px;
+  margin-left: 224px;
+  width: 80px;
+}
+
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1354px) {
+    .form-con {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 898px) {
+    .form-con {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 634px) {
+    .form-con {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1095px)and (min-width: 900px) {
+    nav li{
+      padding: 5px;
+
+    }
+}
+
+@media (max-width: 900px) and (min-width: 660px) {
+    nav li{
+      padding: 5px;
+    }
+    .navlines:hover {
+      border-top: 4px solid #ffffff;
+      border-bottom: 4px solid #ffffff;
+      padding: 12px;
+    }
+    nav ul {
+      display: inline-flex;
+      flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 715px) {
+	#container {
+		max-width: 1200px;
+		margin: 0 auto;
+		position: relative;
+	}
+  .logo{
+
+    margin: auto;
+  }
+	nav {
+		/* margin-left: auto; */
+		margin-right: auto;
+	}
+	img {
+		max-width: 100%;
+	}
+
+	.navlines:hover{
+		color: #0c247a;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 12px;
+
+	}
+	nav ul {
+		flex-shrink: 1;
+		flex-grow: 1;
+		padding: 0;
+    padding-right:0;
+
+	}
+	nav ul li {
+		flex-shrink: 1;
+		flex-grow: 1;
+		flex-basis: 50%;
+    display: block;
+    padding: 5px;
+
+	}
+	nav ul li a {
+		display: flex;
+		flex-shrink: 1;
+		flex-grow: 1;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 5px;
+	}
+
+	nav img {
+		display: block;
+		text-align: center;
+		margin: 0px auto;
+	}
+
+.logo_img {
+		display: block;
+		width: 100%;
+    padding-bottom: 15px;
+	}
+
+#toChineseButton {
+  	display: block;
+  	width: 100%;
+    cursor: pointer;
+
+  	}
+
+	.index_buttons{
+		margin-bottom: 10px;
+		margin-right: 40px;
+	}
+
+  .slideshowImageHolder{
+    height: 250px;
+
+  }
+
+	p {
+		color: #6f6f6f;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 25px;
+		font-family: Comic Sans, Verdana, sans-serif;
+		margin-bottom: 20px;
+	}
+
+	#completeCourse{
+		text-align: left;
+		margin-left: 30px;
+	}
+
+	#complete_c3{
+		text-align: left;
+		margin-left: 15px;
+	}
+	.main-body {
+		display: flex;
+		flex-flow: column;
+		flex-wrap: nowrap;
+	}
+	.page-content {
+		justify-content: center;
+	}
+	.nameError {
+		color: red;
+	}
+	.emailError {
+		color: red;
+	}
+	.writtenmessageError {
+		color: red;
+	}
+
+	#contactForm div{
+		text-align: center;
+	}
+
+	#contactForm label {
+		display: flex;
+		justify-content: center;
+		text-align: right;
+	}
+	#contactForm span {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		position: relative;
+	}
+
+  #contactFormChinese div{
+		text-align: center;
+	}
+
+	#contactFormChinese label {
+		display: flex;
+		justify-content: center;
+		text-align: right;
+	}
+	#contactFormChinese span {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		position: relative;
+	}
+
+}
